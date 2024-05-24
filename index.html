@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Textarea и localStorage</title>
+
+</head>
+<body>
+    <textarea id="myTextarea"  placeholder="Введите текст..." oninput="saveText(this.value) "></textarea>
+    <h1>Результат</h1>
+    <p id="displayText"></p>
+
+   <script src="./script.js"></script>
+</body>
+</html>
